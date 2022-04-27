@@ -1,0 +1,156 @@
+body {
+  background-color: #343A40;
+  position: relative;
+  min-height: 100vh;
+}
+.card {
+  background-color: #06c0bf;
+  display: inline-block;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  margin: 15px;
+  padding: 20px;
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: 0 12px 16px 0 rgba(6, 192, 191,0.24),0 17px 50px 0 rgba(6, 192, 191,0.19);
+}
+.title {
+  font-size: 26px;
+  font-family: 'Jua';
+}
+.text {
+  font-size: 16px;
+}
+
+.search{
+    border: none;
+    border-radius: 25px;
+    color: #5865F2;
+    margin: 40px;
+    width: 93%;
+    color: black;
+    height: 40px;
+    padding: 5px;
+}
+/* Sidebar */
+#sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#sidebar button {
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 8px 8px 32px;
+  font-family: 'Rubik';
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+#sidebar .extra {
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 8px 8px 32px;
+  font-family: 'Rubik';
+  font-size: 25px;
+  color: green !important;
+  transition: 0.3s;
+  display: none !important;
+}
+#sidebar .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+#sidebar button:hover {
+  color: rgb(71, 82, 196);
+}
+/* Header */
+header {
+  overflow: hidden;
+  background-color: transparent;
+  width: 100%;
+  float: right;
+}
+header p {
+  font-family: 'Jua';
+  font-size: 26px;
+  color: white;
+  float: left;
+  margin-top: 30px;
+}
+header img {
+  margin: 10px;
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  border: 1px hidden;
+  float: left;
+}
+header button {
+  background-color: transparent;
+  font-family: 'Rubik';
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 15px;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  height: 40px;
+  margin: 5px;
+  margin-top: 29px;
+  float: right;
+}
+header button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(71, 82, 196);
+}
+@media screen and (max-width: 600px) {
+  header button:not(:nth-child(3)) {
+    display: none;
+  }
+  #sidebar .extra {
+    display: block;
+  }
+}
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 40px;
+  width: 100%;
+}
+footer hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+footer button {
+  background-color: transparent;
+  padding: 8px 8px 8px 32px;
+  border: none;
+  color: #818181;
+  transition: 0.3s;
+}
+footer button:hover {
+  color: #f1f1f1;
+}
