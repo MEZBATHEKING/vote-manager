@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Vote Manager](README.md)
+* [Home](README.md)
 
 ## dashboard
 

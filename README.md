@@ -4,6 +4,6 @@ description: >-
   give users a reward role, remind users to vote, and so much more
 ---
 
-# Vote Manager
+# Home
 
 Welcome to the Vote Manager documentation
