@@ -21,3 +21,9 @@
 
 * [Intro](server-lists/intro.md)
 * [Top.gg](server-lists/topgg.md)
+
+## APIs
+
+* [Timers](apis/timers/README.md)
+  * [Create](apis/timers/create.md)
+* [Page 1](apis/page-1.md)
