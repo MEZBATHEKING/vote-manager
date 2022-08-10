@@ -21,3 +21,7 @@
 
 * [Intro](server-lists/intro.md)
 * [Top.gg](server-lists/topgg.md)
+
+## APIs
+
+* [Timers](apis/timers.md)
