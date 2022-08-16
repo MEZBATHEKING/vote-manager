@@ -21,8 +21,8 @@
 
 1️⃣ Run `/setup bot` command of Vote Manager
 
-2️⃣ Bot will send you a preview of embed you customized
+2️⃣ Bot will send you a preview of embed you customized & Webhook URL + Webhook Authorization
 
-3️⃣
+3️⃣ Then configure your Top.gg Webhooks settings as it guides you
 
-4️⃣
+4️⃣ All done! Send a test and go ahead
