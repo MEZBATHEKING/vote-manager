@@ -4,7 +4,7 @@
 
 > Setuping a server on Top.gg with Vote Manager is now easiest!
 
-1️⃣ Run `/setup server` Command of Vote Manager
+1️⃣ Run `/setup server` Command of Vote Manager and select Platform:Topgg
 
 2️⃣ Bot will send you a preview of embed you customized & Webhook URL + Webhook Authorization
 
@@ -19,7 +19,7 @@
 
 > Setuping a Bot on Top.gg with Vote Manager is easy too!
 
-1️⃣ Run `/setup bot` command of Vote Manager
+1️⃣ Run `/setup bot` command of Vote Manager and select platform:topgg
 
 2️⃣ Bot will send you a preview of embed you customized & Webhook URL + Webhook Authorization
 
