@@ -1,2 +1,0 @@
-# Enabling Server Tracking
-
