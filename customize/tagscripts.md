@@ -3,7 +3,7 @@
 ## Tagscripts are cool and easy stuffs to customize your own vote message! This page will describe you all tag scripts!
 
 
-{% hint style="warn" %}
+{% hint style="warning" %}
 Use the tagscripts on small letters. Don't use capital letters between {tags}
 {% endhint %}
 
